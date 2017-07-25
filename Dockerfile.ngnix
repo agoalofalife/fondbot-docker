@@ -1,0 +1,4 @@
+FROM nginx:latest
+MAINTAINER Ilya Chubarov  <agoalofalife@gmail.com>
+
+COPY fondbot.conf /etc/nginx/conf.d/
